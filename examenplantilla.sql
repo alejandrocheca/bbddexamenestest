@@ -72,7 +72,7 @@ FOREIGN KEY (idrespuestas) REFERENCES respuestas(idrespuestas)
 );
 
 -- inserción de datos por tabla
-INSERT INTO usuarios (correo, telefono) VALUES ('', '');
+INSERT INTO usuarios (nombre, correo, telefono) VALUES ('', '');
 INSERT INTO modelo(descripcionmodelo, fecha) VALUES ('','');
 INSERT INTO tipo_modelo (idmodelo, modelo) VALUES (,'');
 INSERT INTO examen (idmodelo, descripcionexamen, cantidadpreguntas, puntmin) VALUES (,'',,);
