@@ -6,9 +6,10 @@ USE plantillas;
 -- creación de tablas
 CREATE TABLE usuarios(
 idusuario INT(200) NOT NULL AUTO_INCREMENT,
+nombre  INT(200) NOT NULL,
 correo VARCHAR (100) NOT NULL,
 telefono VARCHAR (100) NOT NULL,
-PRIMARY KEY(idusuario, correo, telefono)
+PRIMARY KEY(idusuario, nombre, correo, telefono)
 );
 
 
